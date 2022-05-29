@@ -1,0 +1,12 @@
+
+Compile dynamic library in C++
+https://www.herongyang.com/Linux/GCC-shared-to-Build-Dynamic-Library-Files.html
+
+https://s311354.github.io/Louis.github.io/2021/01/23/C++_Static_and_Dynamic_Libraries/
+
+
+Commands:
+g++ -shared -fPIC -o lib_code.so lib_code.cpp
+g++ -L/home/ubuntu/Serial serial.cpp  -l_code -o ser
+
+
